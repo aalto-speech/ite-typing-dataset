@@ -25,17 +25,17 @@ notebooks/
 
 scripts/
 
-* add_labels_batch.py
+* add_labels.py
   * Adds ITE labels to log and test data tables.
 * select_ite_words.py
   * Generates csv file with Autocorrected and SB selected words.
-* add labels_participants_table.py
+* add_labels_participants_table.py
   * Add ITE labels to participants table
 * generate_dictionary.py
   * Generates dictionary file (word_dict3_en.pkl and word_dict3_fi.pkl)
 
-Scirpts used to select sentences for the typing test.
 
+Scirpts used to select sentences for the typing test.
 * scoring_sentences.py
 * select_sentence
 
@@ -44,7 +44,8 @@ Scirpts used to select sentences for the typing test.
 
 data/
 
-Datasets can be downloaded from Zenado: todo add link.
+Datasets can be downloaded from Zenado: https://doi.org/10.5281/zenodo.12528163
+
 
 See data/README-datasets for more information.
 
@@ -60,6 +61,13 @@ files/
   * Contains information for each word e.g. the average typing time, number of BS/ITE used.
 * word_dict3_fi.pkl
   * Contains information for each word e.g. the average typing time, number of BS/ITE used.
+
+
+## Typing test
+
+* kirjoitustesti-master.zip
+
+    Compressed zip file contains typing speed test application for Finnish language. The source code is the updated version of the typing test application which has been previously used to collect large sets of observations for typing on a physical keyboard and on mobile devices.
 
 
 
