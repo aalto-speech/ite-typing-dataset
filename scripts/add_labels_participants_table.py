@@ -1,5 +1,5 @@
 __author__ = "Katri Leino"
-__copyright__ = "Copyright (c) 2019, Aalto Speech Research"
+__copyright__ = "Copyright (c) 2024, Aalto Speech Research"
 
 # Creating participants table with extral labels: observed ite, ite accuracy, kspc, backspace / char
 

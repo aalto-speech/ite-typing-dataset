@@ -5,8 +5,7 @@ Scripts and jupyter notebooks to process and analyse ITE typing dataset.
 
 ## Citation
 
-Leino, Katri, Markku Laine, Mikko Kurimo, and Antti Oulasvirta. Mobile Typing with Intelligent Text Entry: A
-Large-Scale Dataset and Results.
+Leino, Katri, Markku Laine, Mikko Kurimo, and Antti Oulasvirta. Mobile Typing with Intelligent Text Entry: A Large-Scale Dataset and Results.
 
 
 ## Jupyter Notebooks
@@ -33,6 +32,8 @@ scripts/
   * Add ITE labels to participants table
 * generate_dictionary.py
   * Generates dictionary file (word_dict3_en.pkl and word_dict3_fi.pkl)
+* split_data.py
+  * Splits log data into smaller tables
 
 
 Scirpts used to select sentences for the typing test.
@@ -44,12 +45,18 @@ Scirpts used to select sentences for the typing test.
 
 data/
 
-Datasets can be downloaded from Zenado: https://doi.org/10.5281/zenodo.12528163
+Dataset can be downloaded from Zenado: https://doi.org/10.5281/zenodo.12528163
 
+Please extract data into files directory.
 
 See data/README-datasets for more information.
 
+
 ## Files
+
+Files can be downloaded from Zenado: https://doi.org/10.5281/zenodo.12528163
+
+Please extract files into files directory.
 
 files/
 
@@ -71,5 +78,10 @@ files/
 
 
 
+## License
+
+Distributed under the terms of the MIT license, see the LICENSE.txt file for details.
+
+Copyright © 2024 Aalto Speech Recognition group, Aalto University, Finland
 
 

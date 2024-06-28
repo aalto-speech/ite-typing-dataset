@@ -1,3 +1,9 @@
+__author__ = "Katri Leino"
+__copyright__ = "Copyright (c) 2024, Aalto Speech Research"
+
+# Splits log data intro smaller data tables for labelling. 
+# Optional, however, might be nice to have for English log data.
+
 import pandas as pd
 import numpy as np
 import os
