@@ -5,7 +5,7 @@ Scripts and jupyter notebooks to process and analyse ITE typing dataset.
 
 ## Citation
 
-Leino, Katri, Markku Laine, Mikko Kurimo, and Antti Oulasvirta. Mobile Typing with Intelligent Text Entry: A Large-Scale Dataset and Results.
+Leino, Katri, Markku Laine, Mikko Kurimo, and Antti Oulasvirta. Mobile Typing with Intelligent Text Entry: A Large-Scale Dataset and Results. 2024.
 
 
 ## Jupyter Notebooks
