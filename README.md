@@ -1,6 +1,19 @@
 # ITE typing dataset
 
-Scripts and jupyter notebooks to process and analyse ITE typing dataset.
+The repository contains scripts and jupyter notebooks to process and analyse ITE typing dataset.
+
+ITE typing dataset is a large-scale mobile typing dataset contains 46 755 participants typing sentences in English and 8661 participants in Finnish on their own mobile devices. Participants used various iPhone and Android devices with different operation system versions. The data was collected between 2019 and 2020 by the Computational Behaviour Lab of Aalto University. The user's typing operations and use of Intelligent Text Entry (ITE) methods (Autocorrection and Suggestion Bar) are labelled on a keystroke level. The dataset enables analysis of the effects of the user demographics and the usage and accuracy of ITE methods on typing. The dataset also has a separate table for all ITE corrected and predicted words e.g. for the ITE error analysis. 
+
+A part of English dataset has been published previously as Typing37k dataset ( https://userinterfaces.aalto.fi/typing37k/ ).
+The improvements compared to Typing37k:
+* A larger set of English participants and completely new Finnish dataset.
+* The improved preprocessing and keystroke-level labels.
+* More accurate and extensive ITE labelling: 
+  * Accounts for additional keystroke inputs caused by the system instead of the user and other features such as when double space is used to type a dot on iPhone devices.
+  * Labels when previously used ITE are corrected.
+  * ITE usage, accuracy, and correction rate are reported by participant and sentence level.
+* A separate data table for Autocorrected and Suggestion Bar selected words.
+* All data processing and analysis codes are in Python and public on the GitHub repository.
 
 
 ## Citation
