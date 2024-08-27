@@ -22,6 +22,17 @@ Leino, Katri, Markku Laine, Mikko Kurimo, and Antti Oulasvirta. Mobile Typing wi
 https://doi.org/10.21203/rs.3.rs-4654512/v1
 
 
+## Dataset:
+
+data/
+
+Dataset can be downloaded from Zenado: https://doi.org/10.5281/zenodo.12528163
+
+Please extract data into files directory.
+
+See data/README-datasets for more information.
+
+
 ## Jupyter Notebooks
 
 notebooks/
@@ -53,17 +64,6 @@ scripts/
 Scirpts used to select sentences for the typing test.
 * scoring_sentences.py
 * select_sentence
-
-
-## Dataset:
-
-data/
-
-Dataset can be downloaded from Zenado: https://doi.org/10.5281/zenodo.12528163
-
-Please extract data into files directory.
-
-See data/README-datasets for more information.
 
 
 ## Files
