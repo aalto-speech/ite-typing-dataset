@@ -28,7 +28,7 @@ data/
 
 Dataset can be downloaded from Zenado: https://doi.org/10.5281/zenodo.12528163
 
-Please extract data into files directory.
+Please extract data into data directory.
 
 See data/README-datasets for more information.
 
